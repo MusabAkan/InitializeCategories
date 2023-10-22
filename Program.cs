@@ -48,7 +48,18 @@ class Program
     {
         Console.Write("Kullanıcı Adı: ");
         string username = Console.ReadLine();
-        users.Add(new User(username));
+
+        User userAdd = new(username);
+        foreach (var user in users)
+        {
+            if (user.Username == userAdd.Username)
+            {
+                Console.WriteLine("Kullanıcı daha önce eklenmiştir.");
+                return;
+            }
+        }
+        users.Add(userAdd);
+        Console.WriteLine("Kullanıcı eklenmiştir.");
     }
 
     static void Login()
