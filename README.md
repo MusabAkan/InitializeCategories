@@ -1,1 +1,2 @@
 # InitializeCategories
+Bu kod, kullanýcýlarýn oy kullanmasýna ve sonuçlarý görmesine izin verir. Ancak bu yalnýzca temel bir örnektir ve gerçek bir uygulama daha fazla karmaþýklýk ve güvenlik gerektirir. Ayrýca, verileri kalýcý bir þekilde saklamak için bir veritabaný veya dosya sistemi kullanmanýz gerekebilir.
